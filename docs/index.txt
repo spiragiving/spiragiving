@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2kxk0b4s57w0h.js"
+3:"/_next/static/chunks/20x_19f8upknm.js"
+4:I[27541,["$2","$3"],"SiteShell"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:I[22016,["$2","$3"],""]
+9:"/_next/static/chunks/1mgiw675fgauq.js"
+a:"/_next/static/chunks/266h1ep-g4t3m.js"
+b:I[53787,["$2","$3","$9","$a"],"Home"]
+c:I[97367,["$2","$3"],"OutletBoundary"]
+d:"$Sreact.suspense"
+f:"ViewportBoundary"
+10:I[97367,["$2","$3"],"$f"]
+12:"MetadataBoundary"
+13:I[97367,["$2","$3"],"$12"]
+15:I[68027,["$2","$3"],"default",1]
+:HL["/_next/static/chunks/41ele4s6ed59a.css","style"]
+:HC["/",""]
+8:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$Lb",null,{}],[["$","script","script-0",{"src":"/_next/static/chunks/1mgiw675fgauq.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/266h1ep-g4t3m.js","async":true,"nonce":"$undefined"}]],["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}],"p":false,"v":null}}]]
+0:{"P":null,"c":["",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/41ele4s6ed59a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2kxk0b4s57w0h.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/20x_19f8upknm.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":[["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","section",null,{"className":"container page-header","style":{"minHeight":550},"children":[["$","span",null,{"className":"eyebrow","children":"404 / A missing connection"}],["$","h1",null,{"children":"This page isn’t connected."}],["$","p",null,{"children":"The address may have changed. Explore the platform or return to the homepage."}],["$","div",null,{"className":"button-row","style":{"marginTop":30},"children":[["$","$L7",null,{"className":"button button-primary","href":"/","children":"Back to home"}],["$","$L7",null,{"className":"button button-secondary","href":"/integrations","children":"Explore integrations"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"SPIRAGIVING\",\"url\":\"https://spiragiving.dev\",\"logo\":\"https://spiragiving.dev/logo-light.svg\",\"sameAs\":[\"https://github.com/spiragiving/spiragiving\"],\"description\":\"Software connectivity platform in development.\"}"}}]]}]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$d",null,{"name":"Next.Metadata","children":"$L14"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$15",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/41ele4s6ed59a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"LHoEn_wUIaQCd8hmcGPNl"}
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#09090f"}]]
+16:I[27201,["$2","$3"],"IconMark"]
+e:null
+14:[["$","title","0",{"children":"SPIRAGIVING | Software Connectivity Platform"}],["$","meta","1",{"name":"description","content":"Connect software, integrate APIs, and automate digital workflows with SPIRAGIVING’s unified technology platform. Explore our product vision and interactive demo."}],["$","link","2",{"rel":"canonical","href":"https://spiragiving.dev/"}],["$","meta","3",{"property":"og:title","content":"SPIRAGIVING — Connect Everything. Build Without Limits."}],["$","meta","4",{"property":"og:description","content":"One platform. Endless integrations. Explore a more connected digital future."}],["$","meta","5",{"property":"og:site_name","content":"SPIRAGIVING"}],["$","meta","6",{"property":"og:locale","content":"en_US"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary"}],["$","meta","9",{"name":"twitter:title","content":"SPIRAGIVING"}],["$","meta","10",{"name":"twitter:description","content":"Connect Everything. Build Without Limits."}],["$","link","11",{"rel":"icon","href":"/favicon.svg"}],["$","link","12",{"rel":"apple-touch-icon","href":"/app-icon.svg"}],["$","$L16","13",{}]]

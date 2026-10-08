@@ -1,0 +1,43 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2kxk0b4s57w0h.js"
+3:"/_next/static/chunks/20x_19f8upknm.js"
+4:I[27541,["$2","$3"],"SiteShell"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:"/_next/static/chunks/2atk8lscoeca5.js"
+8:"/_next/static/chunks/3zvv7umiimnil.js"
+9:"/_next/static/chunks/1utyq8x_mvm51.js"
+a:"/_next/static/chunks/266h1ep-g4t3m.js"
+b:I[22016,["$2","$3","$7","$8","$9","$a"],""]
+12:I[49595,["$2","$3","$7","$8","$9","$a"],"PageHeader"]
+1c:"ViewportBoundary"
+1d:I[97367,["$2","$3"],"$1c"]
+1e:"MetadataBoundary"
+1f:I[97367,["$2","$3"],"$1e"]
+20:"$Sreact.suspense"
+21:I[27201,["$2","$3"],"IconMark"]
+:HL["/_next/static/chunks/41ele4s6ed59a.css","style"]
+d:X
+10:X
+10:C
+11:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[false,[["$","$L12",null,{"eyebrow":"Legal","title":"Terms of service","description":"Terms for using this public website and product demonstration. Effective October 8, 2026."}],["$","article",null,{"className":"container legal","children":[["$","h2",null,{"children":"1. Website and demonstration"}],["$","p",null,{"children":"SPIRAGIVING provides this website to introduce its software connectivity product vision. The demo workspace is a browser-based illustration. It does not perform real integrations, run external workflows, create accounts, process payments, or provide a production API."}],["$","h2",null,{"children":"2. Acceptable use"}],["$","p",null,{"children":"Use the website lawfully and responsibly. Do not attempt to interfere with its availability, exploit vulnerabilities, misrepresent your identity, or use sample interfaces to enter credentials belonging to real external accounts."}],["$","h2",null,{"children":"3. Availability and plans"}],["$","p",null,{"children":"Product descriptions, connector examples, and plan comparisons describe intended capabilities. They are not a promise that a production service is available. Pricing, usage limits, support terms, and service commitments will be confirmed before any paid offering."}],["$","h2",null,{"children":"4. Intellectual property and third-party names"}],["$","p",null,{"children":"The SPIRAGIVING name, original visual assets, and site content are presented as part of this website. Third-party application names belong to their respective owners. Their appearance illustrates use cases and does not imply endorsement or an official partnership."}],["$","h2",null,{"children":"5. Information and downloads"}],["$","p",null,{"children":"Contact drafts and demo reports are generated on your device. You are responsible for reviewing and managing those files. A draft download is not a submitted inquiry. Sample metrics, connection states, and execution events describe demonstration data only."}],["$","h2",null,{"children":"6. No production commitments"}],["$","p",null,{"children":"This public preview does not establish a paid subscription, service-level agreement, or enterprise contract. Any production service will require its own published commercial and operational terms. Do not rely on illustrative examples for production decisions."}],"$L13","$L14","$L15"]}]]],["$L16","$L17","$L18","$L19"],"$L1a"]}],"p":"$@1b","v":null,"s":"$d"}}]]
+e:[["children",{"s":{"n":"page","t":"d","k":"terms","s":["blog","integrations"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@f","v":"$10","s":"$d"},"c":"$Q11"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/41ele4s6ed59a.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2kxk0b4s57w0h.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20x_19f8upknm.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":[["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","section",null,{"className":"container page-header","style":{"minHeight":550},"children":[["$","span",null,{"className":"eyebrow","children":"404 / A missing connection"}],["$","h1",null,{"children":"This page isn’t connected."}],["$","p",null,{"children":"The address may have changed. Explore the platform or return to the homepage."}],["$","div",null,{"className":"button-row","style":{"marginTop":30},"children":[["$","$Lb",null,{"className":"button button-primary","href":"/","children":"Back to home"}],["$","$Lb",null,{"className":"button button-secondary","href":"/integrations","children":"Explore integrations"}]]}]]}],[]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"SPIRAGIVING\",\"url\":\"https://spiragiving.dev\",\"logo\":\"https://spiragiving.dev/logo-light.svg\",\"sameAs\":[\"https://github.com/spiragiving/spiragiving\"],\"description\":\"Software connectivity platform in development.\"}"}}]]}]}]]}],"p":"$@c","v":null,"s":"$d"},"c":"$Qe"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1d",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#09090f"}]]}],["$","$L1f",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$20",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Terms of service | SPIRAGIVING"}],["$","meta","1",{"name":"description","content":"Terms for using the SPIRAGIVING public website and browser-based product demonstration."}],["$","link","2",{"rel":"canonical","href":"https://spiragiving.dev/terms/"}],["$","meta","3",{"property":"og:title","content":"Terms of service | SPIRAGIVING"}],["$","meta","4",{"property":"og:description","content":"Terms for using the SPIRAGIVING public website and browser-based product demonstration."}],["$","meta","5",{"property":"og:url","content":"https://spiragiving.dev/terms/"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Terms of service | SPIRAGIVING"}],["$","meta","8",{"name":"twitter:description","content":"Terms for using the SPIRAGIVING public website and browser-based product demonstration."}],["$","link","9",{"rel":"icon","href":"/favicon.svg"}],["$","link","10",{"rel":"apple-touch-icon","href":"/app-icon.svg"}],["$","$L21","11",{}]]}]}],null]}],null]}],"p":"$@22","v":null,"s":"$d"}},"a":"$@23","u":"$@24","b":"LHoEn_wUIaQCd8hmcGPNl"}
+25:I[97367,["$2","$3"],"OutletBoundary"]
+13:["$","h2",null,{"children":"7. Changes and inquiries"}]
+14:["$","p",null,{"children":"These terms may be updated as the product develops. Read the current version before using newly introduced services. The contact page explains the available inquiry method."}]
+15:["$","$Lb",null,{"className":"button button-secondary","href":"/privacy","style":{"marginTop":30},"children":"Read privacy policy"}]
+16:["$","script","script-0",{"src":"/_next/static/chunks/2atk8lscoeca5.js","async":true}]
+17:["$","script","script-1",{"src":"/_next/static/chunks/3zvv7umiimnil.js","async":true}]
+18:["$","script","script-2",{"src":"/_next/static/chunks/1utyq8x_mvm51.js","async":true}]
+19:["$","script","script-3",{"src":"/_next/static/chunks/266h1ep-g4t3m.js","async":true}]
+1a:["$","$L25",null,{"children":["$","$20",null,{"name":"Next.MetadataOutlet","children":"$@26"}]}]
+d:300
+26:null
+24:true
+d:C
+23:0
+f:"$undefined"
+c:"$undefined"
+22:"$undefined"
+1b:"$undefined"

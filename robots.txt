@@ -1,2 +1,7 @@
-User-agent: *
+User-Agent: *
 Allow: /
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /signup/
+
+Sitemap: https://spiragiving.dev/sitemap.xml

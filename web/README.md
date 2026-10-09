@@ -17,9 +17,9 @@ npm run build
 node scripts/publish-export.mjs
 ```
 
-Commit `web/` and the generated `docs/` directory, then push `main`. GitHub Pages must be set to deploy from **main /docs**. The custom domain is `spiragiving.dev`; `docs/CNAME` preserves it and `.nojekyll` allows `_next` assets to be served. This site uses static export with trailing-slash routes and can also be deployed using a static host or Vercel.
+Commit `web/` and the generated `docs/` directory, then push `main` to save the source. The existing GitHub Pages publishing source is **STartup /**. Copy the contents of `docs/` into a checkout of that branch, commit, and push `STartup` to publish. The custom domain is `spiragiving.dev`; `CNAME` preserves it and `.nojekyll` allows `_next` assets to be served. This site uses static export with trailing-slash routes and can also be deployed using a static host or Vercel.
 
-Existing legacy website files and the `STartup` branch have been retained. They are not used by the new Pages publishing source. No files or styles from the older template are used in this original implementation.
+Legacy website history has been retained. The existing `STartup` publishing branch now serves the generated website. Earlier template assets may remain on that branch but are not referenced by the new site. No files or styles from the older template are used in this original implementation.
 
 ## Available functionality
 

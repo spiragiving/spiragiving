@@ -1,0 +1,43 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2kxk0b4s57w0h.js"
+3:"/_next/static/chunks/20x_19f8upknm.js"
+4:I[27541,["$2","$3"],"SiteShell"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:"/_next/static/chunks/2atk8lscoeca5.js"
+8:"/_next/static/chunks/3zvv7umiimnil.js"
+9:"/_next/static/chunks/1utyq8x_mvm51.js"
+a:"/_next/static/chunks/266h1ep-g4t3m.js"
+b:I[22016,["$2","$3","$7","$8","$9","$a"],""]
+12:I[49595,["$2","$3","$7","$8","$9","$a"],"PageHeader"]
+1c:"ViewportBoundary"
+1d:I[97367,["$2","$3"],"$1c"]
+1e:"MetadataBoundary"
+1f:I[97367,["$2","$3"],"$1e"]
+20:"$Sreact.suspense"
+21:I[27201,["$2","$3"],"IconMark"]
+:HL["/_next/static/chunks/41ele4s6ed59a.css","style"]
+d:X
+10:X
+10:C
+11:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[false,[["$","$L12",null,{"eyebrow":"Legal","title":"Privacy policy","description":"How this website handles information. Effective October 8, 2026."}],["$","article",null,{"className":"container legal","children":[["$","h2",null,{"children":"1. Scope"}],["$","p",null,{"children":"This policy describes the public SPIRAGIVING website and its browser-based product demonstration. Production accounts, subscriptions, and integrations are not available through this website."}],["$","h2",null,{"children":"2. Information you enter"}],["$","p",null,{"children":"The contact form prepares a text draft on your device. It does not submit the name, email, company, subject, or message to SPIRAGIVING. Authentication preview fields are validated locally and are not sent to an authentication service or stored as credentials. Use sample passwords only."}],["$","h2",null,{"children":"3. Local preferences and demo data"}],["$","p",null,{"children":"The website stores your light or dark theme preference in your browser’s local storage. Demo workspace changes stay in memory for the current page session and reset when reloaded. Downloaded drafts and reports remain on your device until you remove them. You can remove the theme preference by clearing site data in your browser."}],["$","h2",null,{"children":"4. Hosting and external links"}],["$","p",null,{"children":["The website is hosted on GitHub Pages. The hosting provider may process standard connection information under its own policies. See"," ",["$","a",null,{"href":"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement","target":"_blank","rel":"noreferrer","children":"GitHub’s privacy statement"}],". Visiting an external link subjects that visit to the destination’s policies."]}],["$","h2",null,{"children":"5. Analytics and third-party accounts"}],["$","p",null,{"children":"This website does not include marketing analytics, advertising trackers, or a connector that accesses your third-party accounts. Fonts and brand assets are served with the website. Illustrative integrations do not transmit account data to the named providers."}],["$","h2",null,{"children":"6. Your choices"}],["$","p",null,{"children":"You can explore the public site without entering personal information. Clear browser site data to remove local theme preferences. Delete downloaded files to remove drafts or reports from your device. Do not include sensitive information in demonstration forms."}],"$L13","$L14","$L15"]}]]],["$L16","$L17","$L18","$L19"],"$L1a"]}],"p":"$@1b","v":null,"s":"$d"}}]]
+e:[["children",{"s":{"n":"page","t":"d","k":"privacy","s":["blog","integrations"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@f","v":"$10","s":"$d"},"c":"$Q11"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/41ele4s6ed59a.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2kxk0b4s57w0h.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20x_19f8upknm.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":[["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","section",null,{"className":"container page-header","style":{"minHeight":550},"children":[["$","span",null,{"className":"eyebrow","children":"404 / A missing connection"}],["$","h1",null,{"children":"This page isn’t connected."}],["$","p",null,{"children":"The address may have changed. Explore the platform or return to the homepage."}],["$","div",null,{"className":"button-row","style":{"marginTop":30},"children":[["$","$Lb",null,{"className":"button button-primary","href":"/","children":"Back to home"}],["$","$Lb",null,{"className":"button button-secondary","href":"/integrations","children":"Explore integrations"}]]}]]}],[]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"SPIRAGIVING\",\"url\":\"https://spiragiving.dev\",\"logo\":\"https://spiragiving.dev/logo-light.svg\",\"sameAs\":[\"https://github.com/spiragiving/spiragiving\"],\"description\":\"Software connectivity platform in development.\"}"}}]]}]}]]}],"p":"$@c","v":null,"s":"$d"},"c":"$Qe"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1d",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#09090f"}]]}],["$","$L1f",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$20",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Privacy policy | SPIRAGIVING"}],["$","meta","1",{"name":"description","content":"Understand information handling, local preferences, and demonstration data on the SPIRAGIVING website."}],["$","link","2",{"rel":"canonical","href":"https://spiragiving.dev/privacy/"}],["$","meta","3",{"property":"og:title","content":"Privacy policy | SPIRAGIVING"}],["$","meta","4",{"property":"og:description","content":"Understand information handling, local preferences, and demonstration data on the SPIRAGIVING website."}],["$","meta","5",{"property":"og:url","content":"https://spiragiving.dev/privacy/"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Privacy policy | SPIRAGIVING"}],["$","meta","8",{"name":"twitter:description","content":"Understand information handling, local preferences, and demonstration data on the SPIRAGIVING website."}],["$","link","9",{"rel":"icon","href":"/favicon.svg"}],["$","link","10",{"rel":"apple-touch-icon","href":"/app-icon.svg"}],["$","$L21","11",{}]]}]}],null]}],null]}],"p":"$@22","v":null,"s":"$d"}},"a":"$@23","u":"$@24","b":"LHoEn_wUIaQCd8hmcGPNl"}
+25:I[97367,["$2","$3"],"OutletBoundary"]
+13:["$","h2",null,{"children":"7. Updates and contact"}]
+14:["$","p",null,{"children":"We will update this policy when the website’s data practices change or production services are introduced. The current date is shown above. The contact page explains the available inquiry method; a live submission service is not configured yet."}]
+15:["$","$Lb",null,{"className":"button button-secondary","href":"/contact","style":{"marginTop":30},"children":"Contact information"}]
+16:["$","script","script-0",{"src":"/_next/static/chunks/2atk8lscoeca5.js","async":true}]
+17:["$","script","script-1",{"src":"/_next/static/chunks/3zvv7umiimnil.js","async":true}]
+18:["$","script","script-2",{"src":"/_next/static/chunks/1utyq8x_mvm51.js","async":true}]
+19:["$","script","script-3",{"src":"/_next/static/chunks/266h1ep-g4t3m.js","async":true}]
+1a:["$","$L25",null,{"children":["$","$20",null,{"name":"Next.MetadataOutlet","children":"$@26"}]}]
+d:300
+26:null
+24:true
+d:C
+23:0
+f:"$undefined"
+c:"$undefined"
+22:"$undefined"
+1b:"$undefined"

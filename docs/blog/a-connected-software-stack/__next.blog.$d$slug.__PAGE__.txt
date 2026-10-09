@@ -1,0 +1,35 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2kxk0b4s57w0h.js"
+3:"/_next/static/chunks/20x_19f8upknm.js"
+4:I[27541,["$2","$3"],"SiteShell"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:"/_next/static/chunks/266h1ep-g4t3m.js"
+8:I[22016,["$2","$3","$7"],""]
+11:I[49595,["$2","$3","$7"],"PageHeader"]
+12:I[49595,["$2","$3","$7"],"CTA"]
+13:I[97367,["$2","$3"],"OutletBoundary"]
+14:"$Sreact.suspense"
+17:"ViewportBoundary"
+18:I[97367,["$2","$3"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$2","$3"],"$19"]
+1b:I[27201,["$2","$3"],"IconMark"]
+:HL["/_next/static/chunks/41ele4s6ed59a.css","style"]
+a:X
+d:X
+d:C
+10:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L11",null,{"eyebrow":"Perspective","title":"A connected stack is more than a collection of apps","description":"Why the space between your tools deserves as much attention as the tools themselves.","children":["$","div",null,{"className":"article-meta","style":{"marginTop":30,"maxWidth":400},"children":[["$","span",null,{"children":["SPIRAGIVING editorial · ","October 8, 2026"]}],["$","span",null,{"children":"4 min read"}]]}]}],["$","article",null,{"className":"container article-body","children":[["$","nav",null,{"className":"breadcrumb","children":["$","$L8",null,{"href":"/blog","children":"Back to journal"}]}],[["$","p","0",{"children":"Every growing business adds software. A CRM captures leads, a payment tool records transactions, and a project workspace tracks delivery. The challenge appears between those tools: information becomes fragmented, ownership becomes unclear, and teams repeat the same work."}],["$","p","1",{"children":"A connected stack starts with a map of the information your business actually needs to share. Identify the source of truth for each record, the people responsible for it, and the moment another system needs to know about a change."}],["$","p","2",{"children":"Start with one narrow workflow. A customer completes onboarding, a project is created, and a team receives a notification. Define the minimum fields, permissions, and failure handling before adding more steps."}],["$","p","3",{"children":"The goal is not to connect everything at once. It is to create dependable connections that reduce work and remain understandable as your business changes. This is the approach behind the SPIRAGIVING product vision."}]],["$","div",null,{"className":"panel","children":[["$","h3",null,{"children":"Explore the idea in practice."}],["$","p",null,{"children":"Try the sample connection and workflow experience in our demo workspace."}],["$","$L8",null,{"className":"button button-secondary","href":"/dashboard","style":{"marginTop":20},"children":"Open product demo"}]]}]]}],["$","$L12",null,{}]],[["$","script","script-0",{"src":"/_next/static/chunks/266h1ep-g4t3m.js","async":true}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],"p":"$@16","v":null,"s":"$a"}}]]
+e:[["children",{"s":{"n":"slug","t":"d","k":"a-connected-software-stack","s":[]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@f","v":"$d","s":"$a"},"c":"$Q10"}]]
+b:[["children",{"s":"blog","h":131168,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@c","v":"$d","s":"$a"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/41ele4s6ed59a.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2kxk0b4s57w0h.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20x_19f8upknm.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":[["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","section",null,{"className":"container page-header","style":{"minHeight":550},"children":[["$","span",null,{"className":"eyebrow","children":"404 / A missing connection"}],["$","h1",null,{"children":"This page isn’t connected."}],["$","p",null,{"children":"The address may have changed. Explore the platform or return to the homepage."}],["$","div",null,{"className":"button-row","style":{"marginTop":30},"children":[["$","$L8",null,{"className":"button button-primary","href":"/","children":"Back to home"}],["$","$L8",null,{"className":"button button-secondary","href":"/integrations","children":"Explore integrations"}]]}]]}],[]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"SPIRAGIVING\",\"url\":\"https://spiragiving.dev\",\"logo\":\"https://spiragiving.dev/logo-light.svg\",\"sameAs\":[\"https://github.com/spiragiving/spiragiving\"],\"description\":\"Software connectivity platform in development.\"}"}}]]}]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#09090f"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"A connected stack is more than a collection of apps | SPIRAGIVING"}],["$","meta","1",{"name":"description","content":"Why the space between your tools deserves as much attention as the tools themselves."}],["$","link","2",{"rel":"canonical","href":"https://spiragiving.dev/blog/a-connected-software-stack/"}],["$","meta","3",{"property":"og:title","content":"A connected stack is more than a collection of apps"}],["$","meta","4",{"property":"og:description","content":"Why the space between your tools deserves as much attention as the tools themselves."}],["$","meta","5",{"property":"og:url","content":"https://spiragiving.dev/blog/a-connected-software-stack/"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"A connected stack is more than a collection of apps"}],["$","meta","9",{"name":"twitter:description","content":"Why the space between your tools deserves as much attention as the tools themselves."}],["$","link","10",{"rel":"icon","href":"/favicon.svg"}],["$","link","11",{"rel":"apple-touch-icon","href":"/app-icon.svg"}],["$","$L1b","12",{}]]}]}],null]}],null]}],"p":"$@1c","v":null,"s":"$a"}},"a":"$@1d","u":"$@1e","b":"LHoEn_wUIaQCd8hmcGPNl"}
+15:null
+a:300
+1e:true
+a:C
+1d:0
+f:"$undefined"
+c:"$undefined"
+9:"$undefined"
+1c:"$undefined"
+16:"$undefined"

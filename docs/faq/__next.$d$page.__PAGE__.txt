@@ -1,0 +1,43 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2kxk0b4s57w0h.js"
+3:"/_next/static/chunks/20x_19f8upknm.js"
+4:I[27541,["$2","$3"],"SiteShell"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:"/_next/static/chunks/2atk8lscoeca5.js"
+8:"/_next/static/chunks/3zvv7umiimnil.js"
+9:"/_next/static/chunks/1utyq8x_mvm51.js"
+a:"/_next/static/chunks/266h1ep-g4t3m.js"
+b:I[22016,["$2","$3","$7","$8","$9","$a"],""]
+1b:"ViewportBoundary"
+1c:I[97367,["$2","$3"],"$1b"]
+1d:"MetadataBoundary"
+1e:I[97367,["$2","$3"],"$1d"]
+1f:"$Sreact.suspense"
+20:I[27201,["$2","$3"],"IconMark"]
+:HL["/_next/static/chunks/41ele4s6ed59a.css","style"]
+d:X
+10:X
+10:C
+12:Tb09,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is SPIRAGIVING?","acceptedAnswer":{"@type":"Answer","text":"SPIRAGIVING is a software connectivity platform in development. This website introduces its vision and includes an interactive demonstration of integration management."}},{"@type":"Question","name":"How does software integration work?","acceptedAnswer":{"@type":"Answer","text":"An integration uses APIs or events to move selected data between applications. A workflow defines when that transfer happens, how data is mapped, and how errors are handled."}},{"@type":"Question","name":"Do I need technical experience?","acceptedAnswer":{"@type":"Answer","text":"The planned workspace aims to make common workflows approachable. Advanced API setup and custom logic may still require a developer. You can explore the demo without any setup."}},{"@type":"Question","name":"Can developers use the platform?","acceptedAnswer":{"@type":"Answer","text":"The developer section describes the proposed REST API and webhook architecture. Code examples are illustrative; a public production API and SDK are not available yet."}},{"@type":"Question","name":"What types of applications can be connected?","acceptedAnswer":{"@type":"Answer","text":"The directory illustrates productivity, CRM, payments, cloud, database, and AI use cases. Listed connectors are planned examples, not currently available production integrations."}},{"@type":"Question","name":"Is my data secure?","acceptedAnswer":{"@type":"Answer","text":"The demo does not connect to external accounts or collect credentials. Production security controls will need to be implemented and independently verified before real integrations launch."}},{"@type":"Question","name":"Can I automate business workflows?","acceptedAnswer":{"@type":"Answer","text":"You can run sample workflows in the demo dashboard. These runs update demo data only and do not trigger actions in external applications."}},{"@type":"Question","name":"Do you provide API access?","acceptedAnswer":{"@type":"Answer","text":"Production API access is not currently available. The developer page provides illustrative request and response examples to explain the intended developer experience."}},{"@type":"Question","name":"Is SPIRAGIVING suitable for startups?","acceptedAnswer":{"@type":"Answer","text":"The product vision focuses on connecting a growing software stack with fewer custom integrations. Availability and final plan details will be confirmed before launch."}},{"@type":"Question","name":"How can I contact the team?","acceptedAnswer":{"@type":"Answer","text":"Use the contact page to prepare a message. It currently offers a draft download rather than a live submission service. You can also visit the verified GitHub repository."}}]}11:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$12"}}],["$L13","$L14"]],["$L15","$L16","$L17","$L18"],"$L19"]}],"p":"$@1a","v":null,"s":"$d"}}]]
+e:[["children",{"s":{"n":"page","t":"d","k":"faq","s":["blog","integrations"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@f","v":"$10","s":"$d"},"c":"$Q11"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/41ele4s6ed59a.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2kxk0b4s57w0h.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20x_19f8upknm.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":[["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","section",null,{"className":"container page-header","style":{"minHeight":550},"children":[["$","span",null,{"className":"eyebrow","children":"404 / A missing connection"}],["$","h1",null,{"children":"This page isn’t connected."}],["$","p",null,{"children":"The address may have changed. Explore the platform or return to the homepage."}],["$","div",null,{"className":"button-row","style":{"marginTop":30},"children":[["$","$Lb",null,{"className":"button button-primary","href":"/","children":"Back to home"}],["$","$Lb",null,{"className":"button button-secondary","href":"/integrations","children":"Explore integrations"}]]}]]}],[]]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"SPIRAGIVING\",\"url\":\"https://spiragiving.dev\",\"logo\":\"https://spiragiving.dev/logo-light.svg\",\"sameAs\":[\"https://github.com/spiragiving/spiragiving\"],\"description\":\"Software connectivity platform in development.\"}"}}]]}]}]]}],"p":"$@c","v":null,"s":"$d"},"c":"$Qe"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1c",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#09090f"}]]}],["$","$L1e",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Frequently asked questions | SPIRAGIVING"}],["$","meta","1",{"name":"description","content":"Clear answers about SPIRAGIVING, the product demonstration, and planned production capabilities."}],["$","link","2",{"rel":"canonical","href":"https://spiragiving.dev/faq/"}],["$","meta","3",{"property":"og:title","content":"Frequently asked questions | SPIRAGIVING"}],["$","meta","4",{"property":"og:description","content":"Clear answers about SPIRAGIVING, the product demonstration, and planned production capabilities."}],["$","meta","5",{"property":"og:url","content":"https://spiragiving.dev/faq/"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Frequently asked questions | SPIRAGIVING"}],["$","meta","8",{"name":"twitter:description","content":"Clear answers about SPIRAGIVING, the product demonstration, and planned production capabilities."}],["$","link","9",{"rel":"icon","href":"/favicon.svg"}],["$","link","10",{"rel":"apple-touch-icon","href":"/app-icon.svg"}],["$","$L20","11",{}]]}]}],null]}],null]}],"p":"$@21","v":null,"s":"$d"}},"a":"$@22","u":"$@23","b":"LHoEn_wUIaQCd8hmcGPNl"}
+24:I[49595,["$2","$3","$7","$8","$9","$a"],"PageHeader"]
+25:I[49595,["$2","$3","$7","$8","$9","$a"],"FAQ"]
+26:I[97367,["$2","$3"],"OutletBoundary"]
+13:["$","$L24",null,{"eyebrow":"Questions, answered","title":"A little clarity goes a long way.","description":"Understand the platform vision, the demo experience, and what is still in development."}]
+14:["$","div",null,{"className":"container page-body faq-section","children":[["$","$L25",null,{}],["$","div",null,{"className":"panel","style":{"marginTop":45},"children":[["$","h3",null,{"children":"Still have a question?"}],["$","p",null,{"children":"Prepare an inquiry on the contact page or explore the developer notes."}],["$","$Lb",null,{"className":"button button-secondary","href":"/contact","style":{"marginTop":20},"children":"Visit contact page"}]]}]]}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/2atk8lscoeca5.js","async":true}]
+16:["$","script","script-1",{"src":"/_next/static/chunks/3zvv7umiimnil.js","async":true}]
+17:["$","script","script-2",{"src":"/_next/static/chunks/1utyq8x_mvm51.js","async":true}]
+18:["$","script","script-3",{"src":"/_next/static/chunks/266h1ep-g4t3m.js","async":true}]
+19:["$","$L26",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+d:300
+27:null
+23:true
+d:C
+22:0
+f:"$undefined"
+c:"$undefined"
+21:"$undefined"
+1a:"$undefined"

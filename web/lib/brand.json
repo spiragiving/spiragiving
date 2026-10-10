@@ -1,0 +1,12 @@
+{
+  "petals": 8,
+  "center": 50,
+  "petalY": 25,
+  "petalRadiusX": 12,
+  "petalRadiusY": 24,
+  "centerRadius": 12,
+  "paper": "#f8f5ed",
+  "ink": "#183e35",
+  "flower": "#c45232",
+  "lightFlower": "#e5aa8a"
+}

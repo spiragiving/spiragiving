@@ -36,6 +36,8 @@ Images are licensed Unsplash illustrations of arts and culture, not photographs 
 
 ## Source structure
 
+The shared flower geometry and colors live in `lib/brand.json`. The build's `prebuild` step generates matching SVG/PNG/ICO assets, wordmark files and content-versioned icon URLs via `scripts/generate-brand.mjs`. Changing the icon geometry or colors produces new URLs so browsers can replace an earlier cached favicon. Root `favicon.png`, `favicon.ico` and `apple-touch-icon.png` remain available as fallbacks.
+
 - `app/`: routes, export configuration and metadata.
 - `components/nonprofit/`: current public website, forms and financial/grant interactions.
 - `lib/nonprofit.ts`: organization identity, filing data, recipients, journal and FAQ.

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
 import type { ReactNode } from "react";
+import brand from "@/lib/brand.json";
 
 export function Bloom({ className = "" }: { className?: string }) {
   return (
@@ -10,18 +11,23 @@ export function Bloom({ className = "" }: { className?: string }) {
       fill="none"
       aria-hidden="true"
     >
-      {Array.from({ length: 8 }, (_, i) => (
+      {Array.from({ length: brand.petals }, (_, i) => (
         <ellipse
           key={i}
-          cx="50"
-          cy="25"
-          rx="12"
-          ry="24"
-          transform={`rotate(${i * 45} 50 50)`}
+          cx={brand.center}
+          cy={brand.petalY}
+          rx={brand.petalRadiusX}
+          ry={brand.petalRadiusY}
+          transform={`rotate(${(i * 360) / brand.petals} ${brand.center} ${brand.center})`}
           fill="currentColor"
         />
       ))}
-      <circle cx="50" cy="50" r="12" fill="var(--paper)" />
+      <circle
+        cx={brand.center}
+        cy={brand.center}
+        r={brand.centerRadius}
+        fill="var(--paper)"
+      />
     </svg>
   );
 }

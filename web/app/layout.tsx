@@ -4,6 +4,7 @@ import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
 import "./globals.css";
 import { NonprofitShell } from "@/components/nonprofit/shell";
+import brandAssets from "@/lib/brand-assets.json";
 export const metadata: Metadata = {
   metadataBase: new URL("https://spiragiving.dev"),
   title: {
@@ -13,7 +14,14 @@ export const metadata: Metadata = {
   description:
     "A Denver-based private foundation supporting selected charitable organizations in arts and culture. Discover our giving, public records and Colorado’s creative community.",
   alternates: { canonical: "/" },
-  icons: { icon: "/favicon.svg", apple: "/app-icon.svg" },
+  icons: {
+    icon: [
+      { url: brandAssets.png, type: "image/png", sizes: "32x32" },
+      { url: brandAssets.svg, type: "image/svg+xml", sizes: "any" },
+    ],
+    shortcut: [{ url: brandAssets.ico, type: "image/x-icon" }],
+    apple: [{ url: brandAssets.apple, type: "image/png", sizes: "180x180" }],
+  },
   openGraph: {
     title: "Spira Giving Colorado — Giving Culture Room to Grow",
     description:

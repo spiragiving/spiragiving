@@ -2,4 +2,4 @@
 :HC["/",""]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":{"n":"page","t":"d","k":"privacy","s":["blog","integrations"]},"h":65632,"c":"$Q2"}]]
-0:{"b":"jJLEt5sozssCvq7iN2aqh","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"7yQccrJ46IMPfgFqEjvB5","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

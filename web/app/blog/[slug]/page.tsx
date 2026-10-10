@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import { stories } from "@/lib/nonprofit";
 import { articles } from "@/lib/data";
-import { PageHeader, CTA } from "@/components/shared";
+import { PageIntro, Photo, TextLink } from "@/components/nonprofit/common";
+import { LegacyRedirect } from "@/components/nonprofit/legacy";
+import { ArrowUpRight } from "lucide-react";
 export const dynamicParams = false;
 export function generateStaticParams() {
-  return articles.map((a) => ({ slug: a.slug }));
+  return [...stories, ...articles].map((s) => ({ slug: s.slug }));
 }
 export async function generateMetadata({
   params,
@@ -13,21 +15,25 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const article = articles.find((a) => a.slug === slug);
-  return article
+  const story = stories.find((s) => s.slug === slug);
+  return story
     ? {
-        title: article.title,
-        description: article.excerpt,
+        title: story.title,
+        description: story.excerpt,
         alternates: { canonical: `/blog/${slug}/` },
         openGraph: {
-          title: article.title,
-          description: article.excerpt,
+          title: story.title,
+          description: story.excerpt,
           type: "article",
           url: `/blog/${slug}/`,
+          images: [story.image],
         },
-        twitter: { title: article.title, description: article.excerpt },
       }
-    : {};
+    : {
+        title: "Journal page moved",
+        robots: { index: false, follow: true },
+        alternates: { canonical: "/blog/" },
+      };
 }
 export default async function Page({
   params,
@@ -35,43 +41,52 @@ export default async function Page({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const article = articles.find((a) => a.slug === slug);
-  if (!article) notFound();
+  const story = stories.find((s) => s.slug === slug);
+  if (!story) {
+    if (articles.some((a) => a.slug === slug))
+      return <LegacyRedirect to="/blog/" />;
+    notFound();
+  }
   return (
     <>
-      <PageHeader
-        eyebrow={article.category}
-        title={article.title}
-        description={article.excerpt}
-      >
-        <div className="article-meta" style={{ marginTop: 30, maxWidth: 400 }}>
-          <span>SPIRAGIVING editorial · {article.date}</span>
-          <span>{article.time}</span>
-        </div>
-      </PageHeader>
-      <article className="container article-body">
-        <nav className="breadcrumb">
-          <Link href="/blog">Back to journal</Link>
-        </nav>
-        {article.paragraphs.map((p, i) => (
-          <p key={i}>{p}</p>
+      <PageIntro
+        eyebrow={`${story.category} / ${story.date}`}
+        title={story.title}
+        description={story.excerpt}
+      />
+      <div className="wrap">
+        <Photo
+          className="article-cover"
+          src={story.image}
+          alt="Illustrative arts and culture photograph"
+        />
+        <p className="image-caption">
+          Illustrative photograph. Read the linked source for documentation of
+          the actual activity.
+        </p>
+      </div>
+      <article className="article-body">
+        {story.paragraphs.map((p) => (
+          <p key={p}>{p}</p>
         ))}
-        <div className="panel">
-          <h3>Explore the idea in practice.</h3>
+        <section className="article-source">
+          <h2>Go to the source.</h2>
           <p>
-            Try the sample connection and workflow experience in our demo
-            workspace.
+            This article summarizes publicly available information. Visit the
+            original source for full details and subsequent updates.
           </p>
-          <Link
-            className="button button-secondary"
-            href="/dashboard"
-            style={{ marginTop: 20 }}
+          <a
+            className="text-link"
+            href={story.source}
+            target="_blank"
+            rel="noreferrer"
           >
-            Open product demo
-          </Link>
-        </div>
+            {story.sourceName}
+            <ArrowUpRight size={17} />
+          </a>
+        </section>
+        <TextLink href="/blog/">Back to the journal</TextLink>
       </article>
-      <CTA />
     </>
   );
 }

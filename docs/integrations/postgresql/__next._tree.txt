@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/41ele4s6ed59a.css","style"]
+:HL["/_next/static/chunks/1z9w-l-sa5_pe.css","style"]
 :HC["/",""]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"postgresql","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"integrations","h":131168,"c":"$Q2"}]]
-0:{"b":"LHoEn_wUIaQCd8hmcGPNl","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"jJLEt5sozssCvq7iN2aqh","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

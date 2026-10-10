@@ -3,5 +3,10 @@ Allow: /
 Disallow: /dashboard/
 Disallow: /login/
 Disallow: /signup/
+Disallow: /integrations/
+Disallow: /platform/
+Disallow: /pricing/
+Disallow: /developers/
+Disallow: /solutions/
 
 Sitemap: https://spiragiving.dev/sitemap.xml

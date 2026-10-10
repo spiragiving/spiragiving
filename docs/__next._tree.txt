@@ -1,4 +1,5 @@
-:HL["/_next/static/chunks/41ele4s6ed59a.css","style"]
+:HL["/_next/static/chunks/1z9w-l-sa5_pe.css","style"]
 :HC["/",""]
+:HL["/photos/performance.jpg","image",{"fetchPriority":"high"}]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"LHoEn_wUIaQCd8hmcGPNl","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"jJLEt5sozssCvq7iN2aqh","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

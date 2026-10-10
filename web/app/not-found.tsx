@@ -1,21 +1,18 @@
-import Link from "next/link";
+import { Action, PageIntro } from "@/components/nonprofit/common";
 export default function NotFound() {
   return (
-    <section className="container page-header" style={{ minHeight: 550 }}>
-      <span className="eyebrow">404 / A missing connection</span>
-      <h1>This page isn’t connected.</h1>
-      <p>
-        The address may have changed. Explore the platform or return to the
-        homepage.
-      </p>
-      <div className="button-row" style={{ marginTop: 30 }}>
-        <Link className="button button-primary" href="/">
-          Back to home
-        </Link>
-        <Link className="button button-secondary" href="/integrations">
-          Explore integrations
-        </Link>
+    <>
+      <PageIntro
+        eyebrow="404 / Page not found"
+        title="Let’s find your way back."
+        description="This address may have changed. Explore the foundation’s giving or return to the homepage."
+      />
+      <div className="wrap button-row" style={{ paddingBottom: 100 }}>
+        <Action href="/">Return home</Action>
+        <Action href="/work/" secondary>
+          Explore our giving
+        </Action>
       </div>
-    </section>
+    </>
   );
 }

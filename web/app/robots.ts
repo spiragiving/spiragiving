@@ -5,7 +5,16 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/dashboard/", "/login/", "/signup/"],
+      disallow: [
+        "/dashboard/",
+        "/login/",
+        "/signup/",
+        "/integrations/",
+        "/platform/",
+        "/pricing/",
+        "/developers/",
+        "/solutions/",
+      ],
     },
     sitemap: "https://spiragiving.dev/sitemap.xml",
   };

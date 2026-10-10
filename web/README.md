@@ -1,52 +1,50 @@
-# SPIRAGIVING website
+# Spira Giving Colorado website
 
-Original technology startup website built with Next.js App Router, React, TypeScript, Tailwind CSS, Radix-based shadcn-style primitives, Framer Motion, and Lucide icons. Fonts are self-hosted.
+Original nonprofit design built with Next.js App Router, React, TypeScript, Tailwind CSS and Lucide icons. Inter is self-hosted; headings use the system Georgia serif. No environment variables or secrets are required for the website.
 
-## Run locally
+## Development and export
 
 ```sh
 npm ci
 npm run dev
-```
-
-## Build and publish to GitHub Pages
-
-```sh
-npm run typecheck
 npm run build
 node scripts/publish-export.mjs
 ```
 
-Commit `web/` and the generated `docs/` directory, then push `main` to save the source. The existing GitHub Pages publishing source is **STartup /**. Copy the contents of `docs/` into a checkout of that branch, commit, and push `STartup` to publish. The custom domain is `spiragiving.dev`; `CNAME` preserves it and `.nojekyll` allows `_next` assets to be served. This site uses static export with trailing-slash routes and can also be deployed using a static host or Vercel.
+The static export uses trailing-slash routes. The publishing script replaces only the repository `docs/` directory, adds dotted static-segment aliases required for Next.js navigation on GitHub Pages, preserves CNAME/.nojekyll, and provides redirects for the original nonprofit `.html` URLs.
 
-Legacy website history has been retained. The existing `STartup` publishing branch now serves the generated website. Earlier template assets may remain on that branch but are not referenced by the new site. No files or styles from the older template are used in this original implementation.
+Source is maintained on `main`. GitHub Pages uses **STartup /**. Copy the generated contents of `docs/` into the deployment branch root, commit normally and push that branch. Keep `CNAME` set to `spiragiving.dev`; do not force-push.
 
-## Available functionality
+## Active website
 
-- Fifteen primary pages: Home, Platform, Integrations, Solutions, Developers, Pricing, About, Contact, Journal, FAQ, Privacy, Terms, Login, Signup, and Demo Dashboard.
-- Nineteen illustrative connector detail pages and three original journal articles.
-- Search, category filters, sorting, pagination, light/dark theme, accessible mobile navigation, FAQ accordions, code language selection and clipboard copy.
-- Interactive browser-only dashboard with local sample connections, a four-step connection flow, workflow creation/run/pause, usage CSV export, activity updates, settings, notifications, and profile dialogs.
-- Contact validation and local draft download. Authentication screens validate sample inputs and explicitly report that accounts cannot be created or signed in.
-- Canonical metadata, Open Graph and Twitter text metadata, sitemap, robots, organization and FAQ structured data, original logo assets, favicon, and application icon.
+- Home, Our Story, Our Giving, Transparency, Journal, Contact, Giving Inquiry, Volunteer Interest, FAQ, Privacy and Terms.
+- Three sourced journal articles and annual public filings for 2022–2025.
+- Year/category filters for actual grants paid in 2024–2025; year selection for financial summaries.
+- Three validated forms with reviewable mailto drafts, text downloads and explicit delivery status.
+- Mobile navigation with Escape handling, keyboard focus, reduced-motion support and a skip link.
+- Metadata, social preview image, NGO structured data, sitemap and redirects from previous routes.
 
-## Demo boundaries
+## Content and operational boundaries
 
-No production integration, authentication provider, database, API, email delivery, payment processor, analytics tracker, or security certification is represented as implemented. Pricing and connectors are marked as proposed/coming soon. All dashboard values are sample data. Dashboard edits remain in memory and reset on reload; only the non-sensitive theme preference is stored locally. Auth inputs are never transmitted or stored. Contact drafts are generated on the visitor's device and are not submitted.
+See [NONPROFIT-PLAN.md](../NONPROFIT-PLAN.md) for evidence. Do not add fabricated people, testimonials, beneficiaries, event dates or fundraising statistics. Financial summaries describe specific fiscal years; they are not statements of current balances or recipient outcomes.
 
-No environment variables or secret keys are required. Never place credentials in `NEXT_PUBLIC_*`, browser storage, public files, or commits. GitHub Pages serves static files and does not run a backend; real authentication, contact delivery, and integrations require a separately configured service. Server headers and server-side rate limiting cannot be implemented by this static application.
+The foundation only contributes to preselected charitable organizations and does not accept unsolicited funding requests. There is no open grant application. No current foundation-run volunteer opening is claimed.
 
-## Structure
+Contact, giving and volunteer forms prepare drafts on the visitor’s device. They do not submit responses to a server. The existing repository’s contact address, `contact@spiragiving.dev`, is retained; mailbox delivery has not been tested. Giving amount/frequency choices are inquiries only. No payment is collected, no recurring charge is configured and no tax receipt is issued. A verified official payment link or processor is required before adding checkout.
 
-`app/` contains statically generated routes and metadata; `components/` contains the shared brand, navigation, layouts, and public-page compositions; `features/` contains directory, developer examples, forms, and demo workspace behavior; `lib/` contains typed public content and utilities; `public/` contains original SVG branding and hosting assets.
+Images are licensed Unsplash illustrations of arts and culture, not photographs of the foundation’s activity. Credits and source links appear on the privacy page. The original implementation does not use the old charity template code or its photographs.
 
-## Brand assets
+## Source structure
 
-- `brand-icon.svg`: standalone original gradient symbol
-- `logo-light.svg`: horizontal logo for dark backgrounds
-- `logo-dark.svg`: horizontal logo for light backgrounds
-- `logo-monochrome.svg`: one-color horizontal logo
-- `favicon.svg`: compact browser icon
-- `app-icon.svg`: scalable 512×512 application icon
+- `app/`: routes, export configuration and metadata.
+- `components/nonprofit/`: current public website, forms and financial/grant interactions.
+- `lib/nonprofit.ts`: organization identity, filing data, recipients, journal and FAQ.
+- `public/photos/`: licensed illustrative photography.
+- `scripts/publish-export.mjs`: GitHub Pages export preparation.
+- `scripts/nonprofit-qa.cjs`: production browser checks, using the provided runtime’s Playwright and local Microsoft Edge. Set `QA_BASE` to test a different host; default is `http://127.0.0.1:4174`.
 
-Third-party app names are illustrative and do not claim partnerships or endorsement. Only the verified SPIRAGIVING GitHub repository is linked as an official social profile.
+Earlier SaaS components remain unreferenced for source-history continuity. Legacy route lists are used only to generate redirect pages; the new site does not ship the earlier dashboard interface.
+
+## Validation
+
+Serve `docs/` over HTTP after exporting, then run `node scripts/nonprofit-qa.cjs`. The script checks fourteen content routes at 1440, 768, 390 and 320 pixels; navigation, grants, finances, input validation, drafts/downloads, FAQ, redirects and mobile menu behavior. It fails on overflow, broken images, runtime errors, failed same-host requests or unexpected form POSTs.

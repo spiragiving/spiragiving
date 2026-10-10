@@ -1,13 +1,13 @@
-# SPIRAGIVING
+# Spira Giving Colorado
 
-**Connect Everything. Build Without Limits.**
+**Giving culture room to grow.**
 
 Website: [spiragiving.dev](https://spiragiving.dev)
 
-The original Next.js website source lives in [`web/`](web/). The generated static website is saved in `docs/` on `main` and published by GitHub Pages from the root of the existing `STartup` branch.
+An arts and culture nonprofit website for Spira Giving Colorado, a Denver-based private foundation (EIN 88-2401698). Content is based on the user’s organization identification and researched public filings. Read [the research and development plan](NONPROFIT-PLAN.md) for sources and editorial decisions.
 
-See [`web/README.md`](web/README.md) for local development, builds, publishing, original brand assets, and the boundary between implemented website interactions and planned production services.
+The Next.js source lives in [web/](web/). The generated static export is saved in `docs/` on `main`. GitHub Pages publishes the export from the root of **STartup**, with the existing custom domain preserved.
 
-The public site includes an explicitly labeled interactive product demonstration. No live integrations, production authentication, contact delivery, billing, or production API are configured.
+Pages cover the foundation, its giving record, financial transparency, sourced news, contact, giving inquiries and volunteer interest. Forms prepare email drafts and downloadable copies; no automated delivery or payment processor is connected. See [web/README.md](web/README.md) for development and publishing.
 
-The previous website remains available in Git history. The `STartup` branch now serves the new static export; the original application source is maintained on `main`.
+Previous site versions are retained in Git history. Old SaaS and original nonprofit `.html` URLs lead to the relevant redesigned pages.
